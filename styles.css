@@ -1,11 +1,6 @@
 .holder{
+	background-color:red;
 	display:flex;
 	justify-content:center;
+	align-items:center;
 }
-.holder > .item-1 {
-	background-color:red;
-	width:100px;
-	height:100px;
-	align-item:center;
-}
-/* Your CSS Code here. */
