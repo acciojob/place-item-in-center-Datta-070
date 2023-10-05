@@ -1,11 +1,11 @@
 .holder{
-	background-color:red;
 	display:flex;
-	flex:row;
 	justify-content:center;
 	align-items:center;
-	height:100px;
+}
+.holder > div {
+	background-color:red;
 	width:100px;
-	margin-top:50vh;
-	margin-left:50vw;
+	height:100px;
+	align-items:center;
 }
