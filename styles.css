@@ -1,6 +1,7 @@
 body, html{
 	margin:0;
 	height:100%;
+	align-items:center;
 }
 .holder{
 	display:flex;
@@ -9,7 +10,10 @@ body, html{
 	width:100vw;
 	height:100vh;
 }
-.holder > div {
+.item-1 {
+	display:flex;
+	justify-content:center;
+	align-items:center;
 	background-color:red;
 	width:100px;
 	height:100px;
